@@ -1,3 +1,6 @@
+// different format, similar functionality to `app/callback/github/page.tsx` 
+// file from: https://github.com/tazmanianDeviloper/cs-391-oauth-main/tree/main
+
 // OAuth diagram steps 5-6 from the instructions: after the user clicks "Authorize" (step 4), 
 // GitHub sends the browser here with an authorization_code in the URL (e.g. /profile?code=abc123)
 

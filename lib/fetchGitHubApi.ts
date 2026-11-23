@@ -1,3 +1,7 @@
+// different format, similar functionality to `providers/github/getGithubUser.ts` 
+// file from: https://github.com/tazmanianDeviloper/cs-391-oauth-main/tree/main
+// (functionality is split up into different files to adhere to single-tasking principle)
+
 // function sends GET request to GitHub's API w/ user's access token and returns the
 // JSON; used by `getGitHubUser.ts` and `getGitHubEmail.ts` so only write once (DRY):
 export default async function fetchGitHubApi(path: string, accessToken: string) {

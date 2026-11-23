@@ -1,3 +1,6 @@
+// different format, similar functionality to `providers/github/exchangeGithubCode.ts` 
+// file from: https://github.com/tazmanianDeviloper/cs-391-oauth-main/tree/main
+
 // function sends the authorization_code + client_id + client_secret to GitHub and gets back an access_token for this user.
 // (source: https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps#2-users-are-redirected-back-to-your-site-by-github):
 export default async function getAccessToken(code: string): Promise<string> {

@@ -1,3 +1,7 @@
+// different format, similar functionality to `providers/github/getGithubUser.ts` 
+// file from: https://github.com/tazmanianDeviloper/cs-391-oauth-main/tree/main
+// (functionality is split up into different files to adhere to single-tasking principle)
+
 import fetchGitHubApi from "@/lib/fetchGitHubApi";
 
 // function gets the user's primary email address (source: 

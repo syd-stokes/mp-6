@@ -1,3 +1,6 @@
+// different format, similar functionality to `app/sign-in/github/route.ts` 
+// file from: https://github.com/tazmanianDeviloper/cs-391-oauth-main/tree/main
+
 // function builds GitHub sign-in link w/ client_id, redirect_uri, and scopes
 // (step 2 of OAuth diagram); user clicks it to go to GitHub (step 3), signs in and
 // clicks "Authorize" (step 4), and GitHub sends them back with a code (step 5)

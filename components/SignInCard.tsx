@@ -1,3 +1,6 @@
+// different format, similar functionality to `app/sign-in/page.tsx` 
+// file from: https://github.com/tazmanianDeviloper/cs-391-oauth-main/tree/main
+
 // Slide 3 in Lecture 13 (10/27) gives us that: "the `use client` 
 // directive must also be added when a React Hook is used in a component."
 // So, we need it here to use styled-components.
